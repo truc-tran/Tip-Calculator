@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" colorMatched="YES" initialViewController="4C7-XR-FOs">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -42,7 +42,6 @@
                                 <rect key="frame" x="40" y="338" width="61" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
-                                <color key="textColor" red="0.10635959357023239" green="0.5341188907623291" blue="0.093418993055820465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="highlightedColor" red="0.10635959357023239" green="0.5341188907623291" blue="0.093418993055820465" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <size key="shadowOffset" width="0.0" height="3"/>
@@ -117,26 +116,25 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1306" y="145"/>
+            <point key="canvasLocation" x="5101.6000000000004" y="144.3778110944528"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Xon-kG-5Nx">
+        <scene sceneID="Rgu-vC-47M">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qto-cL-Hxk" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4C7-XR-FOs" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="U0R-pH-MMJ"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0KI-Ca-7HT">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eC0-S9-MHt">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="4ED-MH-BOV"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="F5S-Ip-1og"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SNj-kj-aK5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w6Q-kt-dZF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="600.79999999999995" y="145.27736131934034"/>
+            <point key="canvasLocation" x="4162.3999999999996" y="144.3778110944528"/>
         </scene>
     </scenes>
 </document>
